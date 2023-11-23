@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--tg-theme-text-color);
+    background: #000;
+}
+
+@font-face {
+	font-family: 'SF-Pro'; 
+	src: url(SF-Pro.ttf); 
+}
+
+a {
+    text-decoration: none; /* no underline */
+  }
+
+.img-header {
+    width: 100%; 
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-x: hidden;
+
+}
+
+.main-container video {
+    width: 120%;
+    height: auto;
+}
+
+.info {
+    display: flex;
+    height: auto;
+    margin: 50px 25px 10px;
+    border-radius: 20px;
+    background: rgba(17, 17, 17, 0.70);
+
+}
+
+.info__decorations {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.info__decorations img {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.about__text {
+    margin: 10px 16px 20px;
+    color: #DEDEDE;
+    font-family: SF-Pro;
+    font-size: 16px;
+}
+
+
+
+.main-content {
+    position: absolute;
+
+}
+
+
+
+.main-buttom {
+    display: flex;
+    justify-content: center;
+}
+
+.bg__button1 {
+    height: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 8px;
+    border-radius: 25px;
+    background: rgba(17, 17, 17, 0.90);
+
+}
+
+.bg__button2 {
+
+    height: auto;
+    border-radius: 20px;
+    background: #000;
+}
+
+.container__button{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__button p {
+    margin: 4px 26px 6px 12px;
+    font-family: SF-Pro;
+    color: #F2F2F7;
+    font-size: 20px;
+}
+
+.container__button img {
+    margin-right: 8px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
